@@ -1,0 +1,9 @@
+#logic is a is initialised with 0 and b with 1,and then print a and ,a takes the value of b and b takes the value of a+b
+
+n=int(input("enter number of terms"))
+a,b=0,1
+for i in range(1,n+1):
+	print(a, end="")
+	c=a+b
+	a=b
+	b=c
